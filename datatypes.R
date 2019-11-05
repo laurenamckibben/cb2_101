@@ -36,3 +36,45 @@ iris$Sepal.Length
 
 #to remove a column and save the data as a new dataset
 iris_subset<-iris[,-5]
+
+#Working with Data Headers
+
+#gives the header names
+names(iris)
+#change the header names
+names(iris_subset)<-c("slength", "swidth", "plength", "pwidth")
+
+
+#get a basic summary of the overall data
+summary(iris)
+
+#extract the species column
+iris$Species
+#what type of vector is column 5
+class(iris[,5])
+#What are the group options or levels for this factor variable
+levels(iris$Species)
+
+#You can convert a data type to another data type
+all_species<-as.character(iris$Species)
+class(all_species)
+
+#Split the data based on the factor variables
+#split command only works on factor type variables and output a list of dataframes according to each of the factors of the splitting variable
+split_data<-split(iris,iris$Species)
+
+#call the first dataframe element of the split list
+split_data[[1]]
+
+#assign this first list to a new variable
+first_element<-split_data[[1]]
+
+#can also do this by using the name of element 
+first_element<-split_data[["setosa"]]
+
+#grab the 2nd and 3rd row from the setosa element of the split_data list
+set_pl<-split_data[["setosa"]][,c(2,3)]
+
+
+
+
