@@ -1,0 +1,285 @@
+    1  cd /run/media/cb2/VBox_GAs_6.0.14/
+    2  ls
+    3  su -c "VBoxLinuxAdditions.run" 
+    4  su -c "./VBoxLinuxAdditions.run" 
+    5  su -
+    6  id
+    7  shutdown -r now
+    8  id
+    9  su -
+   10  sudo yum install R
+   11  id
+   12  exit
+   13  sudo yum install R
+   14  id
+   15  sudo yum install R
+   16  sudo yum search R
+   17  sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   18  yum install R
+   19  sudo yum install R
+   20  cd ~/Downloads/
+   21  ls
+   22  sudo yum install rstudio-1.2.5001-x86_64.rpm 
+   23  sudo yum realclean
+   24  sudo yum clean all
+   25  cd /var
+   26  ls
+   27  cd db/
+   28  ls
+   29  cd ..
+   30  cd cache/
+   31  ls
+   32  cd yum/
+   33  ls
+   34  cd x86_64/
+   35  ls
+   36  cd 7/
+   37  ls
+   38  cd base/
+   39  ls
+   40  cd packages/
+   41  ls
+   42  cd ..
+   43  du -h yum
+   44  du -h .
+   45  cd ..
+   46  ls
+   47  /
+   48  cd 
+   49  ls
+   50  cd /
+   51  ls
+   52  cd ..
+   53  cd .
+   54  ls
+   55  cd ~
+   56  ls
+   57  ls Desktop/
+   58  ls
+   59  ls -l
+   60  cd /
+   61  cd /media
+   62  ls
+   63  cd sf_laurenallen/
+   64  ls
+   65  mkdir cb2-101-2019
+   66  cd cb2-101-2019/
+   67  wget ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/proteomes/9606.tsv.gz
+   68  gunzip 9606.tsv.gz 
+   69  ls
+   70  ls -l
+   71  ls -lh
+   72  gzip --k 9606.tsv 
+   73  gzip --help
+   74  gzip -N 9606.tsv 
+   75  ls -lh
+   76  gunzip 9606.tsv.gz 
+   77  gzip -c 9609.tsv>9606.tsv.gz
+   78  gzip -c 9606.tsv  >9606.tsv.gz
+   79  ls
+   80  ls -lh
+   81  bzip2 -c 9606.tsv >9606.tsv.bz2
+   82  ls -lh
+   83  xz -c 9606.tsv >9606.tsv.xz
+   84  ls -lh
+   85  md5sum 9606.tsv > md5sum
+   86  cat md5sum 
+   87  md5sum -c md5sum 
+   88  md5sum 9606.tsv >checkmyfile.txt
+   89  cat checkmyfile.txt 
+   90  md5sum -c checkmyfile.txt 
+   91  md5sum *
+   92  md5sum * >md5sum.txt
+   93  md5sum -c md5sum.txt
+   94  cd ..
+   95  ls
+   96  ls cb2-101-2019/
+   97  tar -cvzf cb2-101-2019.tar.gz cb2-101-2019/
+   98  ls
+   99  mkdir test 
+  100  mv cv2
+  101  mv cb2-101-2019.tar.gz  test/
+  102  cd test
+  103  ls
+  104  cd ..
+  105  ls
+  106  tar -cvjf cb2-101-2019.tar.bz2 cb2-101-2019/
+  107  ls
+  108  tar -cvJf cb2-101-2019.tar.xz cb2-101-2019/
+  109  ls
+  110  cd test/
+  111  tar -xvzf cb2-101-2019.tar.gz 
+  112  cb2-101-2019/
+  113  ls
+  114  cd cb2-101-2019/
+  115  ls
+  116  cd ..
+  117  ls
+  118  cd ..
+  119  ls
+  120  cd ..
+  121  ls
+  122  cd sf_laurenallen/
+  123  ls
+  124  rm -rf test/
+  125  ls
+  126  tar -c cb2-101-2019 | gzip -c >cb2-101-2019.tar.gz
+  127  ls
+  128  zcat cb2-101-2019.tar.gz | less
+  129  cd cb2-101-2019/.tar.b
+  130  xzcat cb2-101-2019.tar.xz 
+  131  62;c|62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c[?62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c; 
+  132  ls
+  133  cd cb2-101-2019/
+  134  ls
+  135  zcat 9606.tsv.gz |less
+  136  cd ..
+  137  ks
+  138  ls
+  139  cd ..
+  140  ls
+  141  cd sf_laurenallen/
+  142  ls
+  143  tar -cvf cb2.tar cb2-101-2019
+  144  ls
+  145  tar -tf cb2.tar
+  146  tar -O -xf cb2.tar cb2-101-2019-/9606.tsv
+  147  tar -O -xf cb2.tar cb2-101-2019-/9606.xz | xzcat| less
+  148  tar -O -xf cb2.tar cb2-101-2019/9606.xz | xzcat| less
+  149  tar -O -xf cb2.tar cb2-101-2019/9606.xz | xzcat | less
+  150  ls
+  151  cat cb2-101-2019
+  152  ls cb2-101-2019
+  153  tar -O -xf cb2.tar cb2-101-2019/9606.tsv.xz | xzcat| less
+  154  man tar
+  155  ls
+  156  ls -lh
+  157  ls
+  158  cd cb2-101-2019/
+  159  ls
+  160  head 9606.tsv
+  161  head -n 1 9606.tsv
+  162  tail 9606.tsv
+  163  tail -n 300 9606.tsv
+  164  tail -n 3 9606.tsv
+  165  tail -n+4 9606.tsv
+  166  tail -n+4 9606.tsv| cut -f 1
+  167  tail -n+4 9606.tsv| cut -f 1 |wc -l
+  168  tail -n+4 9606.tsv| cut -f 1 | sort | uniq -c |sort
+  169  tail -n+4 9606.tsv| cut -f 1 | sort | uniq -c |sort -g
+  170  head 9606.tsv
+  171  tail -n+4 9606.tsv| cut -f 1 5 | sort | uniq -c |sort -g
+  172  tail -n+4 9606.tsv| cut -f 1 -f 5 | sort | uniq -c |sort -g
+  173  tail -n+4 9606.tsv| cut -f 1-55 | sort | uniq -c |sort -g
+  174  tail -n+4 9606.tsv| cut -f 1-5 | sort | uniq -c |sort -g
+  175  tail -n+4 9606.tsv| cut -f 1-7 | sort | uniq -c |sort -g
+  176  tail -n+4 9606.tsv| cut -f 1,7 | sort | uniq -c |sort -g
+  177  tail -n+4 9606.tsv| cut -f 1,7 | sort
+  178  tail -n+4 9606.tsv| cut -f 1,7 | sort|uniq
+  179  tail -n+4 9606.tsv| cut -f 1,7 | sort -c
+  180  tail -n+4 9606.tsv| cut -f 1,7 | sort|uniq -c
+  181  tail -n+4 9606.tsv| cut -f 1,7 | sort|uniq -c |tail -n 1
+  182  tail -n+4 9606.tsv| cut -f 1,7 | sort|uniq -c |head -n 1
+  183  tail -n+4 9606.tsv| cut -f 1,7 | sort|uniq -c|sort-gr |head -n 1
+  184  tail -n+4 9606.tsv| cut -f 1,7 | sort|uniq -c|sort -gr |head -n 1
+  185  tail -n+4 9606.tsv| cut -f 1,7 | sort|uniq -c|sort -gr |less
+  186  tail -n+4 9606.tsv| cut -f 1,7 | sort|uniq -c
+  187  tail -n+4 9606.tsv| cut -f 1,7 | sort|uniq -c |sort
+  188  tail -n+4 9606.tsv| cut -f 1,7 | sort|uniq -c |sort -g
+  189  tail -n+4 9606.tsv| cut -f 
+  190  tail -n+4 9606.tsv|
+  191  tail -n+4 9606.tsv| cut -f 1 | sort|uniq -c |sort -g
+  192  tail -n+4 9606.tsv| cut -f 1 | sort|uniq -c |sort -g|tail -n 1
+  193  head -n 3 9606.tsv
+  194  head -n 5 9606.tsv
+  195  tail -n+4 9606.tsv| cut -f 1 | sort|uniq -c |sort -g|tail -n 1
+  196  man cut
+  197  tail -n+4 9606.tsv| cut -f 1 | sort|uniq -c |sort -g|tail -n 1 |cut -d=DELIM
+  198  man cut
+  199  tail -n+4 9606.tsv| cut -f 1 | sort|uniq -c |sort -g|tail -n 1 
+  200  tail -n+4 9606.tsv| cut -f 1 | sort|uniq -c |sort -g|tail -n 1 >wget 9606.tsv
+  201  rm wget 
+  202  ls
+  203  tail -n+4 9606.tsv| cut -f 1 | sort|uniq -c |sort -g|tail -n 1 |tr " " "\n"
+  204  tail -n+4 9606.tsv| cut -f 1 | sort|uniq -c |sort -g|tail -n 1 |tr " " "\n"|tail n-1
+  205  tail -n+4 9606.tsv| cut -f 1 | sort|uniq -c |sort -g|tail -n 1 |tr " " "\n"|tail n -1
+  206  tail -n+4 9606.tsv| cut -f 1 | sort|uniq -c |sort -g|tail -n 1 |tr " " "\n"|tail
+  207  tail -n+4 9606.tsv| cut -f 1 | sort|uniq -c |sort -g|tail -n 1 |tr " " "\n"|tail -n 1
+  208  man tr
+  209  grep sh3 9606.tsv
+  210  grep 9606.tsv sh3
+  211  tail -n+4 9606.tsv| grep -v SH3
+  212  wget ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old_refseq/Bacteria/Escherichia_coli_K_12_substr__MG1655_uid57779/NC_000913.faa
+  213  ls
+  214  cat NC_000913.faa | head
+  215  cat NC_000913.faa | head -n 50
+  216  cat NC_000913.faa |grep ">" |wc -l
+  217  cat NC_000913.faa |grep -v ">" |tr -d "\n"| wc -c
+  218  export aacount=`cat NC_000913.faa |grep -v ">" |tr -d "\n"| wc -c`
+  219  echo $aacount
+  220  export prot_count=`cat NC_000913.faa |grep\>|wc -l`
+  221  export prot_count=`cat NC_000913.faa |grep \>|wc -l`
+  222  echo $aacount/$prot_count
+  223  echo $aacount/$prot_count|bc
+  224  echo `cat NC_000913.faa |grep -v ">" |tr -d "\n"| wc -c`/`cat NC_000913.faa|grep \> |wc -l` |bc
+  225  echo $`cat NC_000913.faa |grep -v ">" |tr -d "\n"| wc -c`/$`cat NC_000913.faa|grep \> |wc -l` |bc
+  226  echo `cat NC_000913.faa |grep -v ">" |tr -d "\n"| wc -c`/`cat NC_000913.faa|grep \> |wc -l` |bc
+  227  man bc
+  228  echo $(cat NC_000913.faa |grep -v ">" |tr -d "\n"| wc -c)/$(cat NC_000913.faa|grep \> |wc -l) |bc
+  229  cd ..
+  230  ls
+  231  find cb2-101-2019/ -name ".gz"
+  232  find cb2-101-2019/ -name "*.gz"
+  233  R
+  234  ls
+  235  cd R
+  236  ls
+  237   echo 3BA70A91 && echo $HISTCONTROL && /usr/bin/env && echo 8772CE3A
+  238  sudo yum search framed
+  239  sudo yum install texlive-framed
+  240  sudo yum search titling
+  241  sudo yum install texlive-titling
+  242  git clone https://github.com/laurenamckibben/cb2_101.git
+  243  sudo yum install git
+  244  git clone https://github.com/laurenamckibben/cb2_101.git
+  245  ls -a
+  246  gedit README.md
+  247  git status
+  248  ls
+  249  cd cb2_101/
+  250  ls
+  251  git clone https://github.com/laurenamckibben/cb2_101.git
+  252  cd ..
+  253  ls
+  254  mv README.md cb2_101/
+  255  ls
+  256  cd cb2_101/
+  257  ls
+  258  ls cb2_101/ -l
+  259  cd cb2_101/
+  260  ls
+  261  rm README.md 
+  262  ls
+  263  cd cb2_101/
+  264  ls
+  265  cd ..
+  266  ls
+  267  rm cb2_101/
+  268  ls
+  269  rm -rf cb2_101/
+  270  ls
+  271  cd ..
+  272  ls
+  273  rm -rf cb2_101/
+  274  ls
+  275   echo 7E04BAA && echo $HISTCONTROL && /usr/bin/env && echo 45326711
+  276  pwd
+  277  wget https://github.com/cb2edu/CB2-101-BioComp/raw/2019/05-Data_Formats/data/vogelstein_tsg.txt
+  278  ls
+  279  mkdir NGS
+  280  ls
+  281  mv vogelstein_tsg.txt ./NGS/
+  282  ls
+  283  cd NGS/
+  284  history
+  285  history>11.7.19.txt
