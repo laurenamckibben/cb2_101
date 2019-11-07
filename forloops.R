@@ -15,3 +15,14 @@ for(i in 1:4) {
 
 print(paste("a","b"))
 
+
+#use lapply to return list, vapply for vectors, apply is for multidimensional data
+#apply takes the data and a funtion call and an option called margin (1 for rows, 2 for columns)to determine the order of operation
+
+subset_iris<-iris[,c(1:4)]
+apply(subset_iris, MARGIN = 2, sum)
+
+##Using L Apply
+mean_pw<-lapply(split_data, function(x){
+  return(mean(x$Petal.Width))
+})
